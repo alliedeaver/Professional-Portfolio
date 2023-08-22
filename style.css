@@ -1,0 +1,100 @@
+:root {
+        --title: aliceblue;
+        --background:rgb(239, 163, 176); 
+    }
+    
+        
+header h1 { 
+    font-family: cursive;
+    font-style: bold;
+    color: var(--title);
+    font-size: 60px;
+    background-color: var(--background); 
+    display:flex;
+    justify-content:center;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+ nav { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    font-family:'Franklin Gothic Medium', 'Arial Narcolumn', Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: var(--title);
+    background-color: rgb(227, 68, 126);
+    margin: 10px pink ;
+}
+
+.Aboutme-button {
+    font-family:'Franklin Gothic Medium', 'Arial Narcolumn', Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: var(--title);
+}
+
+
+body { 
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+
+ h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--title);
+        background-color: var(--background);
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content:space-between;
+    }
+
+.About {
+    display:block;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: auto;
+    margin: 15px;
+    }
+   
+.Portfolio {
+    display: block;
+    justify-content: center;
+    flex-direction:row;
+    height: 200px;
+    width: auto;
+    margin: 15px;
+    
+    }
+
+.Resume {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px; 
+    width:auto;
+    margin: 15px;
+    }
+
+
+.Contact {
+        display: block;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px; 
+        width:auto;
+        margin: 15px;
+        }
+
+    
+aside {
+    display: block;
+    align-items: flex-end;
+}
+
+

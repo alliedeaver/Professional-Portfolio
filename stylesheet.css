@@ -1,0 +1,19 @@
+body { 
+    display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+}
+
+header { 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    color: aliceblue;
+    font-size: 32px;
+    background-color: rgb(49, 81, 177);
+}
+
+    h1 {
+    background-color: rgb(39, 166, 208);   
+}
+
+ 
